@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    
+
+    <style>
+        body {
+            background-image: url(flower.jpg);
+            background-size: cover;
+
+
+        }
+
+        .login {
+            box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0, .1);
+
+            border-radius: 0.1rem;
+            border: 0.05rem solid rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+            font-size: larger;
+            background-image: url(imgg.jpg);
+            background-position: center;
+        }
+
+
+
+        .login .box {
+            width: 35%;
+            text-align: center;
+            overflow: hidden;
+
+            max-width: 800px;
+            margin: auto;
+            font-size: larger;
+            background-image: url(imgg.jpg);
+            background-position: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function check() {
+            if (document.getElementById("Name").value === "") {
+                alert('First Name Should not be Empty');
+                document.getElementById("Name").focus();
+                return;
+            }
+           
+           
+            const namereg1 = /^[a-zA-Z0-9]+$/;
+            pass = document.getElementById('pass');
+            if (pass.value.length < 8 || namereg1.test(pass.value) === false) {
+                alert("Password should conatain at least 8 character and must be alphanumeric.");
+                return;
+            }
+            repass = document.getElementById('repass');
+            if (pass.value != repass.value) {
+                alert("Password and Confirm Password should be same");
+                return;
+            }
+        }
+    </script>
+    </head>
+
+    <body>
+        <div class="login">
+            <form action="prcatical9.html">
+                <div class="container">
+                    <h1>Register</h1><br>
+
+                    <label for="Name"><b>Name</b></label>
+                    <input type="text" placeholder="Name" name="Name" id="Name" required><br><br>
+
+                    <label for="pn"><b>Phoneno</b></label>
+                    <input type="text" placeholder="Phoneno" name="mobile" id="pn" value="+91 " required><br><br>
+
+                    <label for="ad"><b>Address</b></label>
+                    <input type="text" placeholder="Enter your home address" name="add" id="add" required><br><br>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="pass" required><br><br>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="repass"
+                        required><br><br>
+                    <hr>
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                    <button onclick="check()">
+                        Register
+                    </button>
+
+                </div>
+
+                <div class="container signin">
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>

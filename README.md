@@ -22,6 +22,7 @@ You can see the total items with the total amount which the user going to pay fo
 If the user enters the place order button then one form is open where the user has to fill require all the details.![Screenshot (300)](https://github.com/neha13rana/Shopping-website/assets/121093178/a85bb83e-81e8-4ee7-b80b-cd31d2de419e)
 ![Screenshot (301)](https://github.com/neha13rana/Shopping-website/assets/121093178/591d8bc3-ff22-475e-9afe-e5e28a76bd42)
 Then users directly go to the main menu once they click on the button. 
-![Screenshot (301)](https://github.com/neha13rana/Shopping-website/assets/121093178/8dcbc311-3a53-447b-a993-63dce11ba575)
+![Screenshot (290)](https://github.com/neha13rana/Shopping-website/assets/121093178/b4c84603-cf54-44d8-80c2-be134b11bec8)
 Here on the site, there are footer is available where all the information about us is available for the ease of the user.
 If a user wants to contact us then they click on the contact-us menu then they can connect with us.
+![image](https://github.com/neha13rana/Shopping-website/assets/121093178/d1745e09-d4a3-4954-9174-d305d36d8d39)

@@ -17,7 +17,7 @@ Now u can explore various options for example if a user wants to know about us t
 Users can add the details to the cart and then place the order.
 ![Screenshot (298)](https://github.com/neha13rana/Shopping-website/assets/121093178/fe0ba9d5-aedd-42c3-a83d-3bca2a4b5c89)
 
-You can see the total items with the total amount which the user going to pay for the same on the top of the screen (Cart menu)
+You can see the total items with the total amount which the user going to pay for the same on the top of the screen (Cart menu).
 ![Screenshot (299)](https://github.com/neha13rana/Shopping-website/assets/121093178/f18f28c2-193e-47ea-af5b-b75ec954035a)
 If the user enters the place order button then one form is open where the user has to fill require all the details.![Screenshot (300)](https://github.com/neha13rana/Shopping-website/assets/121093178/a85bb83e-81e8-4ee7-b80b-cd31d2de419e)
 ![Screenshot (301)](https://github.com/neha13rana/Shopping-website/assets/121093178/591d8bc3-ff22-475e-9afe-e5e28a76bd42)

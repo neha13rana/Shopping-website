@@ -1,5 +1,5 @@
 # Shopping-website
-# This is a flower-shopping site developed by using front-end languages like HTML, CSS, and javascript. You can see some of the snapshots of the site mentioned below for the ease of the viewer. 
+This is a flower-shopping site developed by using front-end languages like HTML, CSS, and javascript. You can see some of the snapshots of the site mentioned below for the ease of the viewer. 
 If a viewer wants to explore by it self then the main.html is the main page of the site.
 The main screen of the shopping site.
 ![Screenshot (290)](https://github.com/neha13rana/Shopping-website/assets/121093178/b4c84603-cf54-44d8-80c2-be134b11bec8)
